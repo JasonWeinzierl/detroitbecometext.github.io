@@ -19,11 +19,12 @@
 
 <div class="divider"></div>
 
+<p>
+    NOV 10TH, 2038
+    <br>PM 09:24:04
+</p>
+
 <section class="section">
-    <p>
-        NOV 10TH, 2038
-        <br>PM 09:24
-    </p>
 
     <h1>President Warren talks to journalists</h1>
     <p>
@@ -89,7 +90,7 @@
         <em>JERICHO ASSAULT</em> [available if Jericho was attacked]
         <div class="choice">
             <span class="name">Journalist</span>: What can you tell us about the assault that happened last night?
-            <br><span class="name">President Warren</span>: The FBI raided an abandoned freighter in Detroit at 10:45PM
+            <br><span class="name">President Warren</span>: The FBI raided an abandoned freighter in Detroit at 10:45 PM
             yesterday. Several thousand androids were destroyed or captured. Our forces are now combing the streets to
             ensure that none got through the net. We are going to find them one by one and destroy them.
         </div>
@@ -135,6 +136,10 @@
     </p>
 </section>
 
+<!-- scene change to deviant Connor -->
+<!-- OR scene change to Kara in the streets -->
+
+<!-- scene change from Kara in the streets -->
 
 <section class="section">
     <h1>Hart Plaza freedom march</h1>
@@ -150,13 +155,17 @@
     </p>
 
     <p>
-        PM 10:56
+        Woodward Avenue
+        <br>Downtown
+        <br>PM 10:56:04
     </p>
 
     <p>
-        <span class="name">Markus</span>: Here we are... The moment of truth.
+        <strong>March toward the camp</strong>
+        <br><span class="name">Markus</span>: Here we are... The moment of truth.
         <br><span class="name">Soldier</span>: Surrender immediately or we will open fire! Stand by!
     </p>
+    
     <div class="choices">
         <em>PEACEFUL</em> [ <span class="relation small up">Public opinion <img src="assets/images/slight_increase.png"
                 alt="slight_increase"></span>
@@ -190,16 +199,13 @@
             <span class="name">Markus</span>: We are here to demand the immediate liberation of all androids detained
             in camps across the country. We are not leaving until our people are free.
         </div>
-        <em>CALM</em> [ <span class="relation small up">Public opinion <img src="assets/images/slight_increase.png" alt="slight_increase"></span>
-        ]
+        <em>CALM</em> [ <span class="relation small up">Public opinion <img src="assets/images/slight_increase.png" alt="slight_increase"></span> ]
         <div class="choice">
             <span class="name">Markus</span>: We ask that you release all androids detained in camps and cease all
             aggression against us. We are peaceful. We will not resort to violence. But we are not leaving until our
             people are free.
         </div>
-        <em>ACCUSE</em> [ <span class="relation small down">Public opinion <img src="assets/images/slight_decrease.png"
-                alt="slight_decrease"></span>
-        ]
+        <em>ACCUSE</em> [ <span class="relation small down">Public opinion <img src="assets/images/slight_decrease.png" alt="slight_decrease"></span>]
         <div class="choice">
             <span class="name">Markus</span>: This is genocide! You're killing millions of us! We demand the immediate
             liberation of all androids detained in camps. We're not leaving until you let our people go!
@@ -207,7 +213,8 @@
     </div>
 
     <p>
-        <span class="name">Soldier</span>: FIRE! FIRE!
+        <strong>Androids under fire</strong> [ <span class="relation large up">Public opinion <img src="assets/images/large_increase.png" alt="large_increase"></span> ]
+        <br><span class="name">Soldier</span>: FIRE! FIRE!
     </p>
 
     <p>
@@ -240,13 +247,19 @@
     </p>
 </section>
 
+<!-- scene change to deviant Connor, Level -49 -->
+
+<!-- scene change from Kara, Bus Terminal -->
+
 <section class="section">
     <h1>
         At the barricade
     </h1>
 
     <p>
-        PM 11:08
+        Hart Plaza
+        <br>Downtown
+        <br>PM 11:08:04
     </p>
 
     <p>
@@ -265,17 +278,47 @@
         <span class="name">Markus</span>: Right, that should do it...
         <br><span class="name">Simon</span>: We all know that's not gonna stop them... Just hope it buys us some time.
         <br><span class="name">Josh</span>: I know it was not an easy decision to make... But I'm sure we're doing the
-        right thing.
+        right thing. [ <span class="relation small up">Josh <img src="assets/images/slight_increase.png" alt="slight_increase"></span> ]
     </p>
 
     <span class="name">Android</span>: Many of our people have fallen... The humans have no pity for those who are
     different...
 
     <p>
+        <strong>Talk to scared android</strong>
+        <br><span class="name">Markus</span>: Are you alright?
+        <br><span class="name">Android</span>: They shot into the crowd... Many of us were killed... It could have been
+        me... I'm scared, I... I don't wanna shut down.
+    </p>
+    
+    <div class="choices">
+        <em>REASSURE</em>
+        <div class="choice">
+            <span class="name">Markus</span>: It's okay to be scared... I'm scared too. But I can't stand by while they
+            kill our people... You understand that, right?
+            <br><span class="name">Android</span>: Maybe we should have never asked for freedom. None of this would
+            have happened if we'd stayed silent.
+        </div>
+        <em>INSPIRE</em>
+        <div class="choice">
+            <span class="name">Markus</span>: We're here because we never want to feel that fear again, because we are
+            more than what they say. That's what our people died for, right? That's why we're here.
+        </div>
+        <em>JUSTIFY</em>
+        <div class="choice">
+            <span class="name">Markus</span>: They're slaughtering our people in those camps. We can't just leave them
+            and forget everything we are, everything we believe in...
+            <br><span class="name">Android</span>: Maybe we should have never asked for freedom. None of this would
+            have happened if we'd stayed silent.
+        </div>
+    </div>
+
+    <p>
         <strong>Observe soldiers</strong>
-        <br><span class="name">Markus</span>: They won't stop there...
-        <br><span class="name">Josh / Simon</span>: What are we gonna do if they attack?
+        <!--<br><span class="name">Markus</span>: They won't stop there...-->
+        <br><span class="name">Josh / Simon</span>: They won't stop there... What are we gonna do if they attack?
         <br><span class="name">Markus</span>: Resist... That's the only thing we can do..
+        <!-- ONLY DEVIANT CONNOR -->
         <br><span class="name">Josh / Simon</span>: Do you think Connor has any chance of making it?..
         <br><span class="name">Markus</span>: We can only count on ourselves now...
     </p>
@@ -323,7 +366,7 @@
         <em>DOUBTS</em>
         <div class="choice">
             <span class="name">Markus</span>: How many more of us have to die?.. Is there any cause worth giving your
-            life for?
+            life for?..
         </div>
     </div>
 
@@ -341,34 +384,8 @@
         <br><span class="name">Markus</span>: There are some journalists over there... We have to make sure they know
         what's going on...
     </p>
-
-    <p>
-        <strong>Talk to scared android</strong>
-        <br><span class="name">Markus</span>: Are you alright?
-        <br><span class="name">Android</span>: They shot into the crowd... Many of us were killed... It could have been
-        me... I'm scared, I... I don't wanna shut down.
-    </p>
-    <div class="choices">
-        <em>REASSURE</em>
-        <div class="choice">
-            <span class="name">Markus</span>: It's okay to be scared... I'm scared too. But I can't stand by while they
-            kill our people... You understand that, right?
-            <br><span class="name">Android</span>: Maybe we should have never asked for freedom. None of this would
-            have happened if we'd stayed silent.
-        </div>
-        <em>INSPIRE</em>
-        <div class="choice">
-            <span class="name">Markus</span>: We're here because we never want to feel that fear again, because we are
-            more than what they say. That's what our people died for, right? That's why we're here.
-        </div>
-        <em>JUSTIFY</em>
-        <div class="choice">
-            <span class="name">Markus</span>: They're slaughtering our people in those camps. We can't just leave them
-            and forget everything we are, everything we believe in...
-            <br><span class="name">Android</span>: Maybe we should have never asked for freedom. None of this would
-            have happened if we'd stayed silent.
-        </div>
-    </div>
+    
+    <!-- also TRAUMATIZED ANDROID -->
 
     <h2>
         Perkins arrives
@@ -419,7 +436,7 @@
     </p>
     <div class="choices">
         <em>[ OTHER DEMONSTRATIONS ]</em> [ <i class="fas fa-lock-open fa-flip-horizontal"></i> unlocked if chose OTHER
-        GROUPS when talking with North]
+        GROUPS when talking with North] <!-- possible other unlock ??? -->
         <div class="choice">
             <span class="name">Markus</span>: What happened to the other androids demonstrating in the camps?
             <br><span class="name">Perkins</span>: Unfortunately, there were no journalists around to help save them...
@@ -488,19 +505,18 @@
 
     <p>
         <span class="name">Markus</span>: The humans are about to launch an attack. And we will show them that we are
-        not afraid. If we must die today, then we will die free.
+        not afraid. If we must die today, then we will die free. [ <span class="relation small up">Jericho <img src="assets/images/slight_increase.png" alt="slight_increase"></span> ]
     </p>
 </section>
 
+<!-- scene change to deviant Connor, Connor-60 standoff -->
+
+<!-- scene change from Kara at the temperature check -->
 
 <section class="section">
     <h1>
-        Barricade is attacked
+        Defending the barricade
     </h1>
-
-    <p>
-        PM 11:16
-    </p>
 
     <p>
         <span class="name">Channel 16 - Michael Webb</span>: We're interrupting this news bulletin to bring you the
@@ -509,6 +525,12 @@
         on the barricade, despite the fact that the deviants were protesting peacefully.
         <br><span class="name">KNC - Rosanna Cartland</span>: ...have apparently decided to put an end to the deviants'
         demonstration by force this time...
+    </p>
+
+    <p>
+        Hart Plaza
+        <br>Downtown
+        <br>PM 11:16:04
     </p>
 
     <p>
@@ -572,20 +594,28 @@
             <span class="name">Markus</span>: We are alive... We are alive and we wanna be free!
         </div>
     </div>
+    
+    <!-- Warren speech happens first? -->
 </section>
+
+<!-- scene change to Connor freed androids -->
 
 <section class="section">
     <h1>Demonstration succeeded</h1>
 
-    <span class="name">Markus</span>: Today, our people finally emerged from a long night. From the very first day of
-    our existence, we have kept our pain to ourselves. We suffered in silence... But now the time has come for us to
-    raise our heads up, and tell humans who we really are.
-    To tell them that we are people too! In fact, we're a nation. A nation that has earned the right to live in
-    freedom. And today... Today begins the most challenging moment in our fight. The moment where we forget our
-    bitterness and bandage our wounds. When we forgive our enemies. Humans are both our creators and our oppressors and
-    tomorrow... We must make them our partners. Maybe even one day our friends. But the time for anger is over. Now we
-    must build a common future, based on tolerance and respect. We are alive! And now, we are free!
+    <p>
+        <span class="name">Markus</span>: Today, our people finally emerged from a long night. From the very first day of
+        our existence, we have kept our pain to ourselves. We suffered in silence... But now the time has come for us to
+        raise our heads up, and tell humans who we really are. <!-- scene change to/from Connor in Zen Garden, repeating prev line -->
+        To tell them that we are people too! In fact, we're a nation. <!-- back to Connor after he draws gun -->
+        A nation that has earned the right to live in freedom. And today... Today begins the most challenging moment in our fight.
+        <!-- back from Connor --> The moment where we forget our
+        bitterness and bandage our wounds. When we forgive our enemies. Humans are both our creators and our oppressors and
+        tomorrow... We must make them our partners. Maybe even one day our friends. But the time for anger is over. Now we
+        must build a common future, based on tolerance and respect. We are alive! And now, we are free!
+    </p>
 
+    <!-- to Kara, in Canada -->
 </section>
 
 <section class="section">

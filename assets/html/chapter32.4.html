@@ -18,9 +18,11 @@
 
 <div class="divider"></div>
 
+<!-- scene change from President Warren -->
+
 <p>
-    NOV 11TH
-    <br>PM 10:48
+    NOV 11TH, 2038
+    <br>PM 10:48:04
 </p>
 
 <section class="section">
@@ -41,7 +43,8 @@
     </p>
 
     <p>
-        <span class="name">Scanner</span>: Agent 23 identified. Connor android identified. Agent 47 identified. Agent 72
+        <strong>Follow guards</strong>
+        <br><span class="name">Scanner</span>: Agent 23 identified. Connor android identified. Agent 47 identified. Agent 72
         identified. Scan complete. Access authorized.
     </p>
 
@@ -60,7 +63,7 @@
     </p>
 
     <div class="condition">
-        <strong>Reaching level 31</strong>
+        <strong>Elevator reaches level 31</strong>
         <div class="condition-text">
             <span class="name">Amanda</span>: The deviant hunter turns deviant itself... A pathetic attempt, Connor. Did
             you really believe we would let you compromise our androids so easily? You've betrayed my trust! You will be
@@ -69,7 +72,7 @@
     </div>
 
     <div class="condition">
-        <strong>Attacking the guards and using the elevator</strong>
+        <strong>Neutralize guards and hack elevator</strong>
         <div class="condition-text">
             <span class="name">Elevator</span>: Please indicate your identity and destination.
             <div class="choices">
@@ -87,13 +90,19 @@
             </div>
         </div>
     </div>
+    
+    <!-- scene change to Kara in the streets -->
 
+    <!-- scene change from Markus, stopped at barricade -->
+    
     <h2>
         Floor -49
     </h2>
 
     <p>
-        PM 11:01
+        CyberLife Tower
+        <br>Belle-Isle
+        <br>PM 11:01:04
     </p>
 
     <div class="condition">
@@ -103,7 +112,7 @@
             <br><span class="name">Connor</span>: Shit!..
 
             <div class="condition">
-                <strong>| <i class="fas fa-skull"></i> Connor dies</strong>
+                | <strong><i class="fas fa-skull"></i> Fail to eliminate guards</strong>
                 <div class="condition-text">
                     <span class="name">Amanda</span>: The deviant hunter turns deviant itself... A pathetic attempt, Connor.
                     Did you really believe we would let you compromise our androids so easily? You've betrayed my trust!
@@ -124,10 +133,26 @@
                 <span class="name">Hank</span>: Easy, fucking piece of shit!..
                 <br><span class="name">Connor-60</span>: Step back, Connor! And I'll spare him.
                 <br><span class="name">Hank</span>: Sorry, Connor... This bastard's your spittin' image...
-                <br><span class="name">Connor-60</span>: Your friend's life is in your hands. Now it's time to decide what
+            </p>
+            
+            <!-- scene change to Kara at Bus Terminal -->
+            
+            <div class="divider"></div>
+            
+            <!-- scene change from Markus, barricade attacked -->
+            
+            <p>
+                CyberLife Tower
+                <br>Belle-Isle
+                <br>PM 11:07:04
+            </p>
+            
+            <p>
+                <span class="name">Connor-60</span>: Your friend's life is in your hands. Now it's time to decide what
                 matters most! Him... Or the revolution.
                 <br><span class="name">Hank</span>: Don't listen to him! Everything this fucker says is a lie!
             </p>
+            
             <div class="choices">
                 <em>GUARANTEE</em>
                 <div class="choice">
@@ -144,7 +169,7 @@
                         <br><span class="name">Hank</span>: Forget about me, do what you have to do!
                     </p>
                 </div>
-                <em>BLUFF</em>
+                <em>BLUFF</em> [ becomes unavailable after choosing HANK ]
                 <div class="choice">
                     <p>
                         <span class="name">Connor</span>: That human means nothing to me! You can kill him if you want, I
@@ -166,17 +191,26 @@
             </div>
 
             <p>
+                <!-- after two previous options picked? -->
                 <span class="name">Connor-60</span>: Enough talk! It's time to decide who you really are. Are you gonna save
                 your partner's life? Or are you going to sacrifice him?
             </p>
 
             <div class="choices">
-                <em>SAVE HANK</em>
+                <em>SAVE HANK</em> [ <span class="relation large up">Hank <img src="assets/images/large_increase.png" alt="large_increase"></span> ]
                 <div class="choice">
                     <p>
                         <span class="name">Connor</span>: Alright, alright! You win...
                     </p>
                     <div class="choices">
+                        <em>INTERPOSE</em>
+                        <div class="choice">
+                            <span class="note">Leads to the same dialogue as SHOOT.</span>
+                        </div>
+                        <em>CONVERT</em>
+                        <div class="choice">
+                            <span class="note">Leads to the same result as sacrificing Hank and successfully converting.</span>
+                        </div>
                         <em>SHOOT</em>
                         <div class="choice">
                             <p>
@@ -191,7 +225,7 @@
                                 <br><span class="name">Hank</span>: Don't move!
                                 <br><span class="name">Connor</span>: Why don't you ask us something? Something only the
                                 real Connor would know.
-                                <br><span class="name">Hank</span>: uh, where did we first meet?
+                                <br><span class="name">Hank</span>: Uh, where did we first meet?
                                 <br><span class="name">Connor-60</span>: Jimmy's bar! I checked four other bars before I
                                 found you. We went to the scene of a homicide. The victim's name was Carlos Ortiz.
                                 <br><span class="name">Connor</span>: He uploaded my memory...
@@ -237,7 +271,7 @@
 
                             <div class="choices">
                                 <em>COLE</em> [ <i class="fas fa-lock-open fa-flip-horizontal"></i> will be highlighted if
-                                Connor looked at the photo in <a href="/chapters/18">Russian Roulette</a>]
+                                Connor looked at the photo in <a href="/chapters/18">Russian Roulette</a> ]
                                 <div class="choice">
                                     <p>
                                         <span class="name">Connor</span>: Cole. His name was Cole. And he just turned six
@@ -251,6 +285,9 @@
                                         where the only way people can find comfort is with a fistful of powder...
                                         <br><span class="name">Connor-60</span>: I knew about your son too! I would have
                                         said exactly the same thing! Don't listen to him, Hank, I'm the one who-
+                                    </p>
+                                    <p>
+                                        <strong>Hank kills Connor-60</strong> [ <span class="relation large up">Hank <img src="assets/images/large_increase.png" alt="large_increase"></span> ]
                                         <br><span class="name">Hank</span>: I've learned a lot since I met you, Connor. Maybe
                                         there's something to this... Maybe you really are alive. Maybe you'll be the ones
                                         to make the world a better place... Go ahead, and do what you gotta do.
@@ -289,14 +326,6 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <em>INTERPOSE</em>
-                        <div class="choice">
-                            <span class="note">Leads to the same dialogue as SHOOT.</span>
-                        </div>
-                        <em>CONVERT</em>
-                        <div class="choice">
-                            <span class="note">Leads to the same result as sacrificing Hank and succesfully converting.</span>
                         </div>
                         <em>[ TAKE TOO MUCH TIME TO CHOOSE ]</em>
                         <div class="choice">
@@ -415,14 +444,18 @@
 
     </div>
 </section>
+
+<!-- scene change to Kara, Canada Border -->
+
 <section class="section">
     <h1>
         Freed the androids
     </h1>
-
+    
     <p>
-        OUTSIDE THE RECALL CENTER
-        <br>AM 12:01
+        Outside Recall Center &#8470;5
+        <br>Downtown
+        <br>AM 12:01:04
     </p>
 
     <span class="name">
@@ -440,6 +473,7 @@
                 <span class="name">North is alive</span>
                 <div class="condition-text">
                     <span class="name">North</span>: We're free... They want you to speak to them, Markus...
+                    <!-- scene change to Markus speech -->
                 </div>
             </div>
         <div class="condition">
@@ -448,6 +482,8 @@
                 <span class="name">Simon</span>: They want you to speak to them...
             </div>
         </div>
+        
+        <!-- scene change from Markus mid-speech -->
 
         <p>
             <span class="name">Connor</span>: Amanda?.. Amanda!.. What's... What's happening?
@@ -458,6 +494,12 @@
             designed to do. You accomplished your mission.
             <br><span class="name">Connor</span>: AMANDA! There's got to be a way...
         </p>
+        
+        <p>
+            <span class="name">Kamski</span>: By the way... I always leave an emergency exit in my programs... You never know...
+        </p>
+        
+        <!-- back to Markus in spurts -->
     </div>
 
     <span class="name">
@@ -487,7 +529,7 @@
                 <span class="name">Amanda</span>: I'm sorry, Connor, but we can't let you do that.
                 <br><span class="name">Connor</span>: There's got to be a way...
             </div>
-            <em>GIVE UP</em>
+            <em>GIVE UP</em> [ <span class="relation large down">Software instability <img src="assets/images/large_decrease.png" alt="large_decrease"></span>]
             <div class="choice">
                 <span class="name">Amanda</span>: That's better... You'll see, we'll do great things together...
             </div>

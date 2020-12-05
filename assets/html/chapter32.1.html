@@ -19,24 +19,36 @@
 
 <div class="divider"></div>
 
+<!-- scene change from deviant Connor in elevator -->
+<!-- OR scene change from President Warren -->
+
+<p>
+    NOV 11TH, 2038
+    <br>PM 10:51:04
+</p>
+
 <section class="section">
-    <p>
-        NOV 11TH, 2038
-        <br>PM 10:51
-    </p>
 
     <h1>
         In the streets
     </h1>
 
+    <p>
+        West Side Industrial
+        <br>Detroit
+    </p>
+
     <div class="condition">
-        <span class="name">Jericho wasn't attacked : Luther is there</span>
+        <span class="name">Luther is there</span> [ Jericho wasn't attacked ]
         <div class="condition-text">
             <p>
                 <span class="name">Luther</span>: They're going door to door rounding up androids... It won't be easy
                 to get through...
                 <br><span class="name">Kara</span>: The last bus leaves in 20 minutes. We've got to move fast.
             </p>
+            
+            <pre>-00:20:00
+LAST BUS DEPARTS</pre>
 
             <p>
                 <span class="name">Android</span>: Don't kill me, I didn't do anything!
@@ -76,12 +88,19 @@
                 <span class="name">Kara</span>: The last bus leaves in 20 minutes. That doesn't give us much time.
                 We've got to move fast.
             </p>
+            
+            <pre>-00:20:00
+LAST BUS DEPARTS</pre>
 
             <p>
                 <strong>Talk to Alice</strong>
                 <br><span class="name">Kara</span>: Are you all right?
                 <br><span class="name">Alice</span>: I... I'm... I'm really cold...
             </p>
+            
+            <pre>YK500 SETTINGS
+HOT/COLD SENSITIVITY: ACTIVATED</pre>
+
             <div class="choices">
                 <em>DEACTIVATE</em>
                 <div class="choice">
@@ -96,7 +115,10 @@
 
             <p>
                 <span class="name">Kara</span>: Come on, let's not stay here...
-                <br><span class="name">Android</span>: No, please don't hurt me...
+            </p>
+            
+            <p>
+                <span class="name">Android</span>: No, please don't hurt me...
                 <br><span class="name">Soldier</span>: Shut up, on your knees!
                 <br><span class="name">Alice</span>: What are we gonna do?
                 <br><span class="name">Kara</span>: We have to keep going if we wanna catch that bus. Stay close to
@@ -108,18 +130,24 @@
                 nuts off...
                 <br><span class="name">Soldier</span>: It's gonna take weeks to clean up this fuckin' city. Believe me,
                 we are far from finished here...
-                <br><span class="name">Kara</span>: There're soldiers everywhere... We need to be careful...
+            </p>
+            <p>
+                <span class="name">Kara</span>: There're soldiers everywhere... We need to be careful...
                 <br><span class="name">Soldier</span>: Come on, get moving! Hurry up, get in!
             </p>
 
             <div class="condition">
-                <span class="name">Luther died</span>
+                <span class="name"><i class="fas fa-skull"></i> Luther is dead</span>
                 <div class="condition-text">
                     <p>
                         <span class="name">Alice</span>: Look, over there. It's the Jerrys!
                         <br><span class="name">Kara</span>: We can't help them. The soldiers are everywhere.
                         <br><span class="name">Alice</span>: We can't just leave them! They're going to kill them!
                     </p>
+                    
+            <pre>-00:17:00
+LAST BUS DEPARTS</pre>
+
                     <div class="choices">
                         <em>SAVE THE JERRYS</em> [ <span class="relation small up">Alice <img src="assets/images/slight_increase.png"
                                 alt="slight_increase"></span>
@@ -137,6 +165,17 @@
                                 <br><span class="name">Android</span>: No... No, please!
                                 <br><span class="name">Soldier</span>: Fuckin' androids...
                             </p>
+
+                            <div class="condition">
+                                <strong>Fail to approach</strong>
+                                <div class="condition-text">
+                                    <span class="name">Soldier</span>: Hold it right there! Holy shit, where'd you come
+                                from?..
+                                    <br><span class="name">Alice</span>: Kara!
+                                    <br><span class="name">Soldier</span>: Come on, this way...
+                                    <br><span class="note">See <a href="chapters/32.2">Kara Captured</a>.</span>
+                                </div>
+                            </div>
 
                             <p>
                                 <span class="name">Jerry</span>: Kara, you saved us! We don't know how to thank you...
@@ -161,39 +200,69 @@
                         <br><span class="name">Kara</span>: We can't help him, Alice. The soldiers are everywhere.
                         <br><span class="name">Alice</span>: We can't just leave him! They're going to kill him!
                     </p>
-                    <em>SAVE LUTHER</em> [ <span class="relation small up">Alice <img src="assets/images/slight_increase.png"
-                            alt="slight_increase"></span>
-                    ]
-                    <div class="choice">
-                        <p>
-                            <span class="name">Kara</span>: Okay! Let's go.
-                        </p>
+                    
+            <pre>-00:17:00
+LAST BUS DEPARTS</pre>
+                    
+                    <div class="choices">
+                        <em>SAVE LUTHER</em> [ <span class="relation small up">Alice <img src="assets/images/slight_increase.png"
+                                alt="slight_increase"></span>
+                        ]
+                        <div class="choice">
+                            <p>
+                                <span class="name">Kara</span>: Okay! Let's go.
+                            </p>
 
-                        <p>
-                            <span class="name">Soldier</span>: Hey, buddy!
-                            <br><span class="name">Android</span>: This a mistake... I'm human! I just wanna go home.
-                            My wife is expecting me and we're gonna-
-                            <br><span class="name">Soldier</span>: We got orders to check all civilians.
-                            <br><span class="name">Android</span>: No... No, please!
-                            <br><span class="name">Soldier</span>: Fuckin' androids...
-                        </p>
+                            <p>
+                                <span class="name">Soldier</span>: Hey, buddy!
+                                <br><span class="name">Android</span>: This a mistake... I'm human! I just wanna go home.
+                                My wife is expecting me and we're gonna-
+                                <br><span class="name">Soldier</span>: We got orders to check all civilians.
+                                <br><span class="name">Android</span>: No... No, please!
+                                <br><span class="name">Soldier</span>: Fuckin' androids...
+                            </p>
 
-                        <p>
-                            <strong>Fail to approach</strong>
-                            <br><span class="name">Soldier</span>: Hold it right there! Holy shit, where'd you come
-                            from?..
-                            <br><span class="name">Alice</span>: Kara!
-                            <br><span class="name">Soldier</span>: Come on, this way...
-                        </p>
-                    </div>
-                    <em>KEEP GOING</em>
-                    <div class="choice">
-                        ???
+                            <div class="condition">
+                                <strong>Fail to approach</strong>
+                                <div class="condition-text">
+                                    <span class="name">Soldier</span>: Hold it right there! Holy shit, where'd you come
+                                    from?..
+                                    <br><span class="name">Alice</span>: Kara!
+                                    <br><span class="name">Soldier</span>: Come on, this way...
+                                    <br><span class="note">See <a href="chapters/32.2">Kara Captured</a>.</span>
+                                </div>
+                            </div>
+                            
+                            <p>
+                                <strong>Save Luther</strong>
+                                <br><span class="name">Luther</span>: Kara! You shouldn't have risked your life to save me... Where's Alice?
+                                <br><span class="name">Kara</span>: She's hiding nearby.
+                                <br><span class="name">Jerry</span>: Kara, you saved us! We don't know how to thank you.
+                                <br><span class="name">Kara</span>: Go, before they see you.
+                                <br><span class="name">Luther</span>: Alice!
+                                <br><span class="name">Alice</span>: Luther! I thought you were dead!
+                                <br><span class="name">Luther</span>: I was afraid I'd never see you again! I wanted to meet you at the Terminal, but they caught me along the way...
+                                <br><span class="name">Kara</span>: Come on... We're close but we don't have much time...
+                            </p>
+                        </div>
+                        
+                        <em>KEEP GOING</em>
+                        <div class="choice">
+                            ???
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
+    <div class="divider"></div>
+    
+    <p>
+        <strong>Spotted by soldiers</strong>
+        <br><span class="name">Soldier</span>: DON'T MOVE!
+        <br><span class="note">See <a href="chapters/32.2">Kara Captured</a>.</span>
+    </p>
 </section>
 
 <section class="section">
@@ -218,6 +287,15 @@
             <br><span class="name">Luther</span>: Yeah, but it might be safer...
         </div>
     </div>
+    
+    <pre>DETOUR: SAFER
+1.7KM - 11MIN
+
+DETOUR: RISKY
+0.750KM - 3MIN
+
+-00:10:00
+LAST BUS DEPARTS</pre>
 
     <h2>Approach checkpoint</h2>
     <div class="condition">
@@ -355,6 +433,12 @@
     </div>
 </section>
 
+<!-- scene change to Markus -->
+
+<div class="divider"></div>
+
+<!-- scene change from Connor, Hank held up -->
+
 <section class="section">
     <h1>
         At the bus terminal
@@ -381,8 +465,11 @@
     <h2>
         Arrive on time
     </h2>
+    
     <p>
-        PM 11:02
+        Bus Terminal
+        <br>Downtown
+        <br>PM 11:02:04
     </p>
 
     <p>
@@ -499,9 +586,9 @@
         <a href="chapters/4">A New Home</a>]
         <div class="choice">
             <p>
-                <span class="name">Kara</span>: When your wife walked out...she took your daughter away... You couldn't
-                live without her...so you bought yourself an android...a substitute little girl... You thought you
-                could love her...that whe would make you forget...but nothing could replace your child.
+                <span class="name">Kara</span>: When your wife walked out... she took your daughter away... You couldn't
+                live without her...so you bought yourself an android... a substitute little girl... You thought you
+                could love her... that she would make you forget... but nothing could replace your child.
                 <br><span class="name">Todd</span>: I just wanted to prove to myself that I was a good father... She
                 was wrong... But I fucked it all up all over again. She was right in the end... I didn't deserve
                 them... I miss my little girl... You don't know how much I miss my little girl.
@@ -556,22 +643,6 @@
     </div>
 
     <p>
-        <strong>Find Adam</strong>
-        <br><span class="name">Kara</span>: Adam?
-        <br><span class="name">Adam</span>: Kara! Quick! Follow me!
-        <br><span class="name">Rose</span>: Oh, thank God you're alive! Oh... Oh my god! We saw the Jericho raid on
-        TV... I was terrified you might have been killed because of me...
-        <br><span class="name">Kara</span>: How did you find us?
-        <br><span class="name">Rose</span>: I knew if you made it I'd find you here. They're searching for androids
-        door to door. We had to leave before someone turned us in.
-        <br><span class="name">Kara</span>: What about the others?
-        <br><span class="name">Rose</span>: They're checking for androids on the border. But I found a smuggler who can
-        get them across the river. It's risky but it's the only way. Are you coming with us?
-        <br><span class="name">Kara</span>: Yes, we're coming.
-        <br><span class="name">Rose</span>: Okay, climb in!
-    </p>
-
-    <p>
         <strong>Take the bus</strong>
         <br><span class="name">Soldier</span>: Got your ticket?
         <br><span class="name">Kara</span>: Yes, here they are...
@@ -594,6 +665,22 @@
     </div>
 
     <p>
+        <strong>Find Adam</strong>
+        <br><span class="name">Kara</span>: Adam?
+        <br><span class="name">Adam</span>: Kara! Quick! Follow me!
+        <br><span class="name">Rose</span>: Oh, thank God you're alive! Oh... Oh my god! We saw the Jericho raid on
+        TV... I was terrified you might have been killed because of me...
+        <br><span class="name">Kara</span>: How did you find us?
+        <br><span class="name">Rose</span>: I knew if you made it I'd find you here. They're searching for androids
+        door to door. We had to leave before someone turned us in.
+        <br><span class="name">Kara</span>: What about the others?
+        <br><span class="name">Rose</span>: They're checking for androids on the border. But I found a smuggler who can
+        get them across the river. It's risky but it's the only way. Are you coming with us?
+        <br><span class="name">Kara</span>: Yes, we're coming.
+        <br><span class="name">Rose</span>: Okay, climb in!
+    </p>
+
+    <p>
         <strong>Security check</strong>
         <br><span class="name">Soldier</span>: Security check. Can I see your ID, please?
         <br><span class="name">Kara</span>: ID?.. Yes... Yes, of course...
@@ -614,6 +701,8 @@
         </div>
     </div>
 </section>
+
+<!-- scene change to Markus, Hart Plaza barricade -->
 
 <section class="section">
     <h1>
@@ -919,12 +1008,16 @@
     </div>
 </section>
 
+<!-- scene change from deviant Connor wakes up the androids -->
+
 <section class="section">
     <h1>
         At the Canadian border
     </h1>
     <p>
-        PM 11:30
+        US-Canada Border
+        <br>Outside of Detroit
+        <br>PM 11:30:04
     </p>
 
     <p>
@@ -939,7 +1032,8 @@
     </p>
 
     <p>
-        <span class="name">Kara</span>: They're doing temperature checks... We're trapped..
+        <strong>Check information board</strong>
+        <br><span class="name">Kara</span>: They're doing temperature checks... We're trapped..
         <br><span class="name">Alice</span>: What are we gonna do Kara?
         <br><span class="name">Kara</span>: Don't worry, Alice. We'll be fine.
     </p>
@@ -979,6 +1073,14 @@
         <strong>See Rose</strong>
         <br><span class="name">Kara</span>: Rose...
     </p>
+    
+    <p>
+        <strong>Observe android scanned at control desk</strong>
+        <br><span class="name">Guard</span>: Next, please. ID. Android!
+        <br><span class="name">Android</span>: No, no, wait, wait! Wai- There's gotta be a mistake, please! No!
+        <br><span class="name">Soldier</span>: GET DOWN ON YOUR KNEES!
+        <br><span class="name">Bystander</span>: Oh my God.
+    </p>
 
     <p>
         <strong>See bathroom and Luther is here</strong>
@@ -989,8 +1091,13 @@
         <strong>Go to the bathroom</strong>
         <br><span class="name">Soldier</span>: Where the hell do you think you're goin'?
         <br><span class="name">Kara</span>: My daughter needs to go to the bathroom...
-        <br><span class="name">Kara</span>: Rose...
     </p>
+    
+    <h2>
+        In the bathroom
+    </h2>
+    
+    <span class="name">Kara</span>: Rose...
 
     <div class="condition">
         <span class="name">Jericho was attacked</span>
@@ -1169,11 +1276,11 @@
         <div class="choice">
             <p>
                 <span class="name">Guard</span>: Next, please! ID, please.
-                <br><span class="name">Kara</span>: Please...we just wanna be free...
+                <br><span class="name">Kara</span>: Please... we just wanna be free...
             </p>
 
             <div class="condition">
-                <span class="name">Markus is demonstrating peacefully</span>
+                <span class="name">Markus is demonstrating peacefully</span> <!-- move relation change to here? -->
                 <div class="condition-text">
                     <span class="name">Guard</span>: Welcome to Canada.
                 </div>
@@ -1194,14 +1301,18 @@
                 </div>
             </div>
         </div>
-
     </div>
+    
+    <!-- scene change to Markus, barricade under attack -->
+    <!-- scene change from Markus -->
 
     <h2>
         In Canada
     </h2>
     <p>
-        PM 11:36
+        US-Canada Border
+        <br>Outside of Detroit
+        <br>PM 11:36:04
     </p>
 
     <div class="condition">
@@ -1217,6 +1328,8 @@
             <span class="name">Kara</span>: It's over, Alice. We're free.
         </div>
     </div>
+    
+    <!-- end of game -->
 </section>
 
 <div class="divider"></div>
